@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Vujahday+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: Dosis, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: Vujahday Script, sans-serif;
+    font-size: 80px;
+}
