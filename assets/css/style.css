@@ -21,27 +21,33 @@ h1, h2 {
     font-size: 300%;
 }
 
-#header-background {
-    background-color: #3a3a3a;
-}
+/* styles for navigation bar */
 
-#menu {
-    font-size: 110%;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
+ul {
     list-style-type: none;
-}
-
-#menu a {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-}
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 
-#menu a:hover {
-    border-bottom: 1px solid black;
-}
+/* main image with animation and cover text */
 
 #oysters {
     height: 500px;
@@ -77,4 +83,13 @@ h1, h2 {
     top: 30px;
     left: 30px;
     position: absolute;
+}
+
+@keyframes oyster-zoom {
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.1;
+    }
 }
