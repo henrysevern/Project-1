@@ -19,6 +19,8 @@ h1, h2 {
 #title {
     float: left;
     font-size: 300%;
+    background-color: #333;
+    color: #fff;
 }
 
 /* styles for navigation bar */
@@ -32,7 +34,7 @@ ul {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -87,9 +89,35 @@ ul {
 
 @keyframes oyster-zoom {
     from{
-        scale: 1;
+        transform: scale(1);
     }
     to{
-        scale: 1.1;
+        transform: scale(1.1);
     }
+}
+
+/* styles for sample menu */
+
+#menu-title {
+    text-align: center;
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 30px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    width: 300px;
+    position: absolute;
+}
+
+#left-menu {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-menu {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
 }
