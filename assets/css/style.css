@@ -114,7 +114,6 @@ ul {
     padding-top: 30px;
     width: 45%;
     float: left;
-    padding-right: 5px;
 }
 
 #right-menu {
@@ -138,3 +137,4 @@ hr {
     background-size: cover;
 }
 
+/* Styles for gallery page */
