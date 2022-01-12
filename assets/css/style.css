@@ -121,3 +121,9 @@ ul {
     width: 50%;
     float: right;
 }
+
+/* Styles for footer element */
+
+.social-links {
+    text-align: center;
+}
