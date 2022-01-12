@@ -54,7 +54,7 @@ ul {
 #oysters {
     height: 500px;
     width: 100%;
-    background: url('../images/oyster-background.jpg') no-repeat center center;
+    background: url('../images/risotto.jpg') no-repeat center center;
     background-size: cover;
     animation: oyster-zoom;
     animation-duration: 6s;
@@ -83,7 +83,7 @@ ul {
     padding-left: 10px;
     background-color: rgba(0, 0, 0, .7);
     top: 30px;
-    left: 30px;
+    right: 30px;
     position: absolute;
 }
 
@@ -104,26 +104,37 @@ ul {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
-    width: 300px;
-    position: absolute;
+    border-top: 1px solid rgb(15, 70, 107);
+    border-bottom: 1px solid rgb(15, 70, 107);
+    position: relative;
+    width: auto;
 }
 
 #left-menu {
     padding-top: 30px;
-    width: 50%;
+    width: 45%;
     float: left;
+    padding-right: 5px;
 }
 
 #right-menu {
     padding-top: 30px;
-    width: 50%;
+    width: 45%;
     float: right;
 }
 
-/* Styles for footer element */
-
-.social-links {
-    text-align: center;
+hr {
+    border-top: 1px solid blue;
+    width: 100%;
+    margin: 5px 0;
 }
+
+/* Styles for quick book section */
+
+#risotto {
+    height: 500px;
+    width: 100%;
+    background: url('../images/risotto.jpg') no-repeat center center;
+    background-size: cover;
+}
+
