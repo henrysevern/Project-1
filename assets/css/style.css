@@ -11,7 +11,8 @@ body {
     font-weight: 300;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Vujahday Script, sans-serif;
     letter-spacing: 5px;
 }
@@ -25,33 +26,33 @@ h1, h2 {
 
 /* styles for navigation bar */
 
-ul {
+nav>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  li {
+}
+
+li {
     float: right;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #111;
-  }
+}
 
 /* main image with animation and cover text */
 
-#oysters {
+#risotto {
     height: 500px;
     width: 100%;
     background: url('../images/risotto.jpg') no-repeat center center;
@@ -61,15 +62,16 @@ ul {
     animation-fill-mode: forwards;
 }
 
-#oysters-outer {
+#risotto-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-        color: #fff;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 }
 
 #cover-text {
@@ -88,15 +90,33 @@ ul {
 }
 
 @keyframes oyster-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
 /* styles for sample menu */
+
+span {
+    color: rgb(15, 70, 107);
+    font-family: Vujahday Script, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+#menu-background {
+ 
+    height: 1050px;
+    width: 100%;
+    background: url('../images/marble-background-white.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 #menu-title {
     text-align: center;
@@ -124,17 +144,27 @@ ul {
 
 hr {
     border-top: 1px solid blue;
-    width: 100%;
+    width: 80%;
     margin: 5px 0;
 }
 
-/* Styles for quick book section */
-
-#risotto {
-    height: 500px;
-    width: 100%;
-    background: url('../images/risotto.jpg') no-repeat center center;
-    background-size: cover;
+.float-left > li {
+    float: left;
 }
+
+
+
+
+
+/* Styles for footer element */
+
+footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 
 /* Styles for gallery page */
