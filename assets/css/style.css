@@ -64,7 +64,7 @@ li a:hover {
     width: 100%;
     background: url('../images/risotto.jpg') no-repeat center center;
     background-size: cover;
-    animation: oyster-zoom;
+    animation: risotto-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
@@ -96,7 +96,7 @@ li a:hover {
     position: absolute;
 }
 
-@keyframes oyster-zoom {
+@keyframes risotto-zoom {
     from {
         transform: scale(1);
     }
@@ -162,6 +162,36 @@ hr {
 }
 
 
+/* Styles for quick book section */
+
+#sushi {
+    height: 500px;
+    width: 100%;
+    background: url('../images/sushi.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#quick-book {
+    font-family: 'Dosis', sans-serif;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    color: #fff;
+    
+    
+    position: absolute;
+    top: 1650px;
+    left: 30px;
+
+}
+
+.field_set {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
 #map {
     width: 100%;
     height: 200px;
