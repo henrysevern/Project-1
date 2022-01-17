@@ -20,7 +20,7 @@
                     <li> <a href="form.html">Competition</a></li>
                     <li> <a href="gallery.html">Gallery</a></li>
                     <li> <a href="#">About</a></li>
-                    <li> <a href="#">Menu</a></li>
+                    <li> <a href="#food-menu">Menu</a></li>
                     <li> <a href="index.html">Home</a></li>
                 </ul>
             </nav>
@@ -32,14 +32,14 @@
             <h3>Cosy seafood restaurant based in North Wales.</h3>
         </div>
     </section>
-    <section>
+    <section id="food-menu">
         <div id="menu-background">
             <h1 id="menu-title">Menu</h1>
             <div id="left-menu">
                 <h1>Starters</h1>
                 <hr>
                 <br>
-                <p> <span>Spanish olives</span> </p>
+                <p> <i class="fas fa-leaf"></i> <span>Spanish olives</span> </p>
                 <p>Served with bread, extra virgin olive oil and balsamic (<em>Pelotin</em> –
                     Amazing sweet, salty baby gordal olives)
                     <span>£4</span></p>
@@ -119,11 +119,32 @@
         </div>
     </section>
     <section>
-        Quick book
+        <form>
+            <label for="fname">First Name:</label>
+            <input requried type="text" name="fname" id="fname">
+            <label for="lname">Last Name:</label>
+            <input requried type="text" name="lname" id="lname">
+            <label for="email">Email Address:</label>
+            <input required type="email" name="email" id="email">
+            <label for="amount">Amount</label>
+		<select id="amount" name="amount">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+            <option value="6">5</option>
+            <option value="7">5</option>
+            <option value="8">5</option>
+            <option value="9">5</option>
+            <option value="10">5</option>
+
+		</select>
+        </form>
     </section>
     <section>
         About us
-        <iframe src="https://bit.ly/2QVfkiy." height="200" width="100%"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.1219674940735!2d-4.277523984278011!3d53.14390557993705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4865af5fd807460d%3A0xf021475bba6e6122!2sHarbour%20Table%20Table!5e0!3m2!1sen!2sie!4v1642419850078!5m2!1sen!2sie" id="map"></iframe>
     </section>
     <footer>
         <h6>Copyright © H's Catch 2022</h6>
