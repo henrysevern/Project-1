@@ -127,48 +127,63 @@
         </div>
     </section>
     <section>
-        <form>
-            <label for="fname">First Name:</label>
-            <input required type="text" name="fname" id="fname" placeholder="Your First Name">
-            <label for="lname">Last Name:</label>
-            <input required type="text" name="lname" id="lname" placeholder="Your Last Name">
-            <label for="email">Email Address:</label>
-            <input required type="email" name="email" id="email" placeholder="Your Email">
-            <label for="amount">Amount</label>
-            <select required id="covers" name="covers">
-                <option value="" selected disabled>Covers</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
-            <label for="time">Time</label>
-            <select name="time" id="time">
-                <option value="" selected disabled>Time</option>
-                <option value="">17.30</option>
-                <option value="">17.45</option>
-                <option value="">18.00</option>
-                <option value="">18.15</option>
-                <option value="">18.30</option>
-                <option value="">18.45</option>
-                <option value="">19.00</option>
-                <option value="">19.15</option>
-                <option value="">19.30</option>
-                <option value="">19.45</option>
-                <option value="">20.00</option>
-                <option value="">20.15</option>
-                <option value="">20.30</option>
-                <option value="">20.45</option>
-                <option value="">21.00</option>
-            </select>
-            <input type="submit" placeholder="Check Availability">
+        <div id="sushi"></div>
+
+<div id="quick-book">
+        <form action="confirmation.html">
+            <fieldset class="field_set">
+                <legend>Quick Book</legend>
+            <div>
+                <label for="fname">First Name:</label>
+                <input required type="text" name="fname" id="fname" placeholder="Your First Name">
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input required type="text" name="lname" id="lname" placeholder="Your Last Name">
+            </div>
+            <div>
+                <label for="email">Email Address:</label>
+                <input required type="email" name="email" id="email" placeholder="Your Email">
+            </div>
+            <div>
+                <label for="amount">Amount</label>
+                <select required id="covers" name="covers">
+                    <option value="" selected disabled>Covers</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="time">Time</label>
+                <select required name="time" id="time">
+                    <option value="" selected disabled>Time</option>
+                    <option value="17.30">17.30</option>
+                    <option value="17.45">17.45</option>
+                    <option value="18.00">18.00</option>
+                    <option value="18.15">18.15</option>
+                    <option value="18.30">18.30</option>
+                    <option value="18.45">18.45</option>
+                    <option value="19.00">19.00</option>
+                    <option value="19.15">19.15</option>
+                    <option value="19.30">19.30</option>
+                    <option value="19.45">19.45</option>
+                    <option value="20.00">20.00</option>
+                    <option value="20.15">20.15</option>
+                    <option value="20.30">20.30</option>
+                    <option value="20.45">20.45</option>
+                    <option value="21.00">21.00</option>
+                </select>
+            </div>
+            <input type="submit" value="Check Avaliability">
+        </fieldset>
         </form>
+    </div>
     </section>
     <section>
         About us
