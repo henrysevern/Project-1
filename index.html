@@ -129,14 +129,14 @@
     <section>
         <form>
             <label for="fname">First Name:</label>
-            <input required type="text" name="fname" id="fname">
+            <input required type="text" name="fname" id="fname" placeholder="Your First Name">
             <label for="lname">Last Name:</label>
-            <input required type="text" name="lname" id="lname">
+            <input required type="text" name="lname" id="lname" placeholder="Your Last Name">
             <label for="email">Email Address:</label>
-            <input required type="email" name="email" id="email">
+            <input required type="email" name="email" id="email" placeholder="Your Email">
             <label for="amount">Amount</label>
-            <select required id="amount" name="amount">
-                <option value="" selected disabled>Choose an option</option>
+            <select required id="covers" name="covers">
+                <option value="" selected disabled>Covers</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -147,8 +147,27 @@
                 <option value="8">8</option>
                 <option value="9">9</option>
                 <option value="10">10</option>
-
             </select>
+            <label for="time">Time</label>
+            <select name="time" id="time">
+                <option value="" selected disabled>Time</option>
+                <option value="">17.30</option>
+                <option value="">17.45</option>
+                <option value="">18.00</option>
+                <option value="">18.15</option>
+                <option value="">18.30</option>
+                <option value="">18.45</option>
+                <option value="">19.00</option>
+                <option value="">19.15</option>
+                <option value="">19.30</option>
+                <option value="">19.45</option>
+                <option value="">20.00</option>
+                <option value="">20.15</option>
+                <option value="">20.30</option>
+                <option value="">20.45</option>
+                <option value="">21.00</option>
+            </select>
+            <input type="submit" placeholder="Check Availability">
         </form>
     </section>
     <section>
