@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>H's Catch Fish Restaurant</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div id="header-background">
         <header>
@@ -24,9 +26,104 @@
             </nav>
         </header>
     </div>
-<section id="form-background">
+    <section id="form-background">
+        <h2 id="form-title">Enter our competition to win a free meal for 2!</h2>
 
-</section>
+        <fieldset class="field_set white-text">
+            <legend>Your details</legend>
+
+            <div>
+                <label for="name-field" class="block-label">Name:</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="email-field" class="block-label">Email:</label>
+                <input id="email-field" type="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <label for="age" class="block-label">Age:</label>
+            <select id="age" name="age" required>
+                <option value="under-20">Under 20</option>
+                <option value="20s">20-29</option>
+                <option value="30s">30-39</option>
+                <option value="40s">40-49</option>
+                <option value="50s">50-59</option>
+                <option value="60+">60+</option>
+            </select>
+
+        </fieldset>
+        <fieldset class="field_set white-text">
+            <legend>Our products</legend>
+            <div>
+                <label for="fav-fis">What is your favourite fish?</label>
+                <input id="fav-fish" list="fish" name="fav-fis" required>
+                <datalist id="fish">
+                    <option value="Salmon"></option>
+                    <option value="Seabass"></option>
+                    <option value="Cod"></option>
+                    <option value="Haddock"></option>
+                    <option value="Hake"></option>
+                    <option value="Pollock"></option>
+                    <option value="Halibut"></option>
+                    <option value="Monkfish"></option>
+                </datalist>
+            </div>
+<hr>
+            <p>How much fish do you consume per week?</p>
+
+            <input id="once-day-radio" name="fish-amount" value="once-day" type="radio" required>
+            <label for="once-day-radio">Once a day</label>
+
+            <input id="once-week-radio" name="fish-amount" value="once-week" type="radio" required>
+            <label for="once-week-radio">Once a week</label>
+
+            <input id="2/4-week-radio" name="fish-amount" value="2/4-week" type="radio" required>
+            <label for="2/4-week-radio">2-4 times a week</label>
+
+            <input id="never-radio" name="fish-amount" value="never" type="radio" required>
+            <label for="never-radio">Never</label>
+
+            <hr>
+
+            <p>How often do you visit H's Catch?</p>
+
+            <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
+            <label for="once-a-week">Once a week</label>
+
+            <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
+            <label for="once-a-fortnight">Once a fortnight</label>
+
+            <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
+            <label for="once-a-month">Once a month</label>
+
+            <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
+            <label for="not-often">Not often</label>
+            <hr>
+
+            <p>Which of our H'catch dishes do you enjoy?</p>
+            <div>
+                <input type="checkbox" id="fillet-checkbox" name="fillet">
+                <label for="fillet-checkbox">Fillet fish dishes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="shellfish-checkbox" name="shellfish">
+                <label for="shellfish-checkbox">Shellfish dishes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="sushi-checkbox" name="sushi">
+                <label for="sushi-checkbox">Sushi dishes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="veggie-checkbox" name="veggie">
+                <label for="veggie-checkbox">Vegetarian dishes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="all-checkbox" name="all">
+                <label for="all-checkbox">All dishes</label>
+            </div>
+        </fieldset>
+
+    </section>
 
     <footer>
         <h6>Copyright © H's Catch 2022</h6>
@@ -56,6 +153,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/a3c891aa8d.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>
