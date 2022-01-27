@@ -339,7 +339,32 @@ input[type=reset] {
 
 /* for larger to medium screen sizes of 1200px wide and below */
 @media screen and (max-width: 1200px) {
-   
+    .about-background {
+        height: 270px;
+        width: 100%;
+        background: url(../images/marble-background-white.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: -2;
+    }
+    
+    #opening-box {
+        position: relative;
+        left: 10px;
+        top: 5px;
+        bottom: 5px;
+        float: left;
+        z-index: 2;
+    }
+
+    #directions-box {
+        position: relative;
+        right: 10px;
+        top: 5px;
+        bottom: 5px;
+        float: right;
+        z-index: 2;
+    }
 }
 
 /* for smaller screen sizes of 600px wide and below */
