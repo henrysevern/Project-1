@@ -3,46 +3,50 @@
 H's Catch is a website for a seafood restaurant based in North Wales. The site will be targeted towards people looking to dine out in Caernarfon, Wales area. The website aims to be informative with a sample menu, a section with contact details, openeing times, directions and a map. With many food images within the different pages to show the type of food that will be served at this restaurant.
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 The website features 3 different pages - Home, Gallery and a Competition.
 
 ### Home page
-The home page features a short description, a sample menu, a quick book feature and information about the restaurant.
+The home page features a short description, a sample menu, a quick book feature and information about the restaurant. The desgin is simple, easy to read and as a restaurant website, the images entice the user to scroll down. The dish options on the menu are highlighted with the description underneath to give the user quick reading (so if a certain dish isn't to the users preference, they can just read past). The quick book feature allows the user to quickly book a table without hassle of contacting the restaurant. The about section provides further details such as opening times, contact details, directions with a interactive map allowing the user to easily contact for further requests and how to locate the restaurant from various transport options.
 
 ### Gallery page
+The gallery page features various images of the food served at the restaurant. The images are set up in a 'Pinterest' style for easy viewing. This page shows the user the food standard that is served at H's Catch providing more interest in booking a reservation. The idea behind this page is to entice the user into booking at the restaurant.
 
 ### Competition page 
+The Competiton page allows the the user to enter a competition to win a free meal for two for answering a few questions. This page would be focused on bringing more users to visit the restuarant website and further providing more bookings. The terms and conditions are in a scroll box to allow for a cleaner viewing.
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Logo and Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the logo and the full responsive navigation bar includes links to the Home page, Menu, About, Gallery and Competiton page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - The Menu and About section are included on the Home page so a smooth scroll has been added to provide the user with a tidy navigation from wherever on the website.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Landing Page](documentation/tests/logo-nav.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a food image with text overlay to allow the user to see what the website is about. 
+  - This section introduces the user to H's Catch with an eye catching animation to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](documentation/tests/landing-image.png)
 
-- __Club Ethos Section__
+- __Menu Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Menu section will allow the user to view the avaliable dishes on the menu.
+  - The user can view the starter dishes, main course dishes and sides with the accompliments and the price.
+  - The main item in the dish has been highlighted in a different font and colour to the accompliments. This is to allow the user to quickly view the items on the menu based on their individual preference.
+  - The Menu also has a white marble scrolling background to catch the users attention.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Menu](documentation/tests/menu.png)
 
-- __Meetup Times section__
+- __Quick book section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to quickly reserve a table on the same day.
+  - This section will be updated as the bookings become avaliable or unavaliable. 
+  - The booking form is placed over the background image enticing the user to quickly get in touch with the restaurant. Allowing for a simple and quick way to book a slot for the coming evening. The user would have to contact the establishment for a different date.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Quick Book](documentation/tests/quick-book.png)
 
 - __The Footer__ 
 
