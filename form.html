@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- Header section with navigation to other pages -->
     <div id="header-background">
         <header>
             <a href="index.html">
@@ -26,166 +27,174 @@
             </nav>
         </header>
     </div>
+    <!-- Form for competition section -->
     <section id="form-background">
         <h2 id="form-title">Enter our competition to win a free meal for 2!</h2>
-<form>
-        <fieldset class="field_set white-text form-boxes">
-            <legend>Your details</legend>
+        <form action="confirmation.html">
+            <fieldset class="field_set white-text form-boxes">
+                <legend>Your details</legend>
+                <!-- Name, email and age section to form -->
+                <div>
+                    <label for="name-field" class="block-label">Name:</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email-field" class="block-label">Email:</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your Email" required>
+                </div>
 
-            <div>
-                <label for="name-field" class="block-label">Name:</label>
-                <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
+                <label for="age" class="block-label">Age:</label>
+                <select id="age" name="age" required>
+                    <option value="under-20">Under 20</option>
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="50s">50-59</option>
+                    <option value="60+">60+</option>
+                </select>
+
+            </fieldset>
+            <fieldset class="field_set white-text form-boxes">
+                <legend>Our produce</legend>
+                <!-- Favourite fish form section -->
+                <div>
+                    <label for="fav-fis">What is your favourite fish?</label>
+                    <input id="fav-fish" list="fish" name="fav-fis" required>
+                    <datalist id="fish">
+                        <option value="Salmon"></option>
+                        <option value="Seabass"></option>
+                        <option value="Cod"></option>
+                        <option value="Haddock"></option>
+                        <option value="Hake"></option>
+                        <option value="Pollock"></option>
+                        <option value="Halibut"></option>
+                        <option value="Monkfish"></option>
+                    </datalist>
+                </div>
+                <br>
+                <!-- How much fish do you consume per week form section -->
+                <div>
+                    <p>How much fish do you consume per week?</p>
+
+                    <input id="once-day-radio" name="fish-amount" value="once-day" type="radio" required>
+                    <label for="once-day-radio">Once a day</label>
+
+                    <input id="once-week-radio" name="fish-amount" value="once-week" type="radio" required>
+                    <label for="once-week-radio">Once a week</label>
+
+                    <input id="2/4-week-radio" name="fish-amount" value="2/4-week" type="radio" required>
+                    <label for="2/4-week-radio">2-4 times a week</label>
+
+                    <input id="never-radio" name="fish-amount" value="never" type="radio" required>
+                    <label for="never-radio">Never</label>
+                </div>
+                <br>
+                <!-- How often do you visit form section -->
+                <div>
+                    <p>How often do you visit H's Catch?</p>
+
+                    <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
+                    <label for="once-a-week">Once a week</label>
+
+                    <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
+                    <label for="once-a-fortnight">Once a fortnight</label>
+
+                    <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
+                    <label for="once-a-month">Once a month</label>
+
+                    <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
+                    <label for="not-often">Not often</label>
+                </div>
+                <br>
+                <!-- Favourite dishes form section -->
+                <div>
+                    <p>Which of our H'catch dishes do you enjoy?</p>
+                    <div>
+                        <input type="checkbox" id="fillet-checkbox" name="fillet">
+                        <label for="fillet-checkbox">Fillet fish dishes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="shellfish-checkbox" name="shellfish">
+                        <label for="shellfish-checkbox">Shellfish dishes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="sushi-checkbox" name="sushi">
+                        <label for="sushi-checkbox">Sushi dishes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="veggie-checkbox" name="veggie">
+                        <label for="veggie-checkbox">Vegetarian dishes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="all-checkbox" name="all">
+                        <label for="all-checkbox">All dishes</label>
+                    </div>
+                    <div>
+
+            </fieldset>
+            <!-- Terms and conditions with scroll box for cleaner viewing -->
+            <div id="terms">
+                <h5 class="underline">OFFICIAL RULES FOR H'S CATCH PRIZE DRAW</h5>
+                <p>NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase does not improve chances
+                    of winning. Subject to all federal, state and local laws and regulations. VOID WHERE
+                    PROHIBITED OR RESTRICTED</p>
+                <p><span class="bold">Sponsor: </span>H'S Catch</p>
+
+                <p><span class="bold">Eligibility: </span>
+                    H's Catch Prize Drawing for 2020 (“Promotion”) is open to all individuals who (i) are 21
+                    years of age or older at the
+                    time of entry, excluding of Sponsor and its
+                    parents, subsidiaries, affiliated companies and agents, and their immediate families or those
+                    living in the same household, are not eligible to enter.</p>
+
+                <p><span class="bold">Promotion Period: </span>
+                    Entrants may participate in the Promotion between 00:01am GMT on
+                    January 1, 2021 through 23:01AM GMT on December 31, 2022 (“Promotion Period”). Sponsor's
+                    server is the official clock for this Promotion.
+                </p>
+
+                <p><span class="bold">Release: </span>
+                    BY ENTERING THE PROMOTION, ENTRANTS RELEASE AND HOLD HARMLESS
+                    SPONSOR AND ITS PARENTS, SUBSIDIARIES, AND AFFILIATED COMPANIES, AND
+                    EACH OF THEIR DIRECTORS, OFFICERS, EMPLOYEES, REPRESENTATIVES,
+                    VENDORS, PARTNERS AND AGENTS, FROM ANY AND ALL LIABILITY WHATSOEVER,
+                    AND WAIVE ANY AND ALL CAUSES OF ACTION, FOR OR RELATED TO ANY CLAIMS,
+                    COSTS, INJURIES, LOSSES, LIABILITIES, OR DAMAGES OF ANY KIND (INCLUDING,
+                    WITHOUT LIMITATION, PERSONAL INJURY, DEATH, DAMAGE TO OR DESTRUCTION OF
+                    PROPERTY, RIGHTS OF PUBLICITY OR PRIVACY, DEFAMATION OR PORTRAYAL IN A
+                    FALSE LIGHT) ARISING OUT OF OR IN CONNECTION WITH THE PROMOTION OR THE
+                    ACCEPTANCE, POSSESSION, OR USE OF THE PRIZE, WHETHER UNDER A THEORY OF
+                    CONTRACT, WARRANTY, TORT (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE,
+                    WHETHER ACTIVE, PASSIVE, OR IMPUTED), STRICT LIABILITY, PRODUCT LIABILITY,
+                    CONTRIBUTION, OR ANY OTHER THEORY, TO THE EXTENT PERMITTED BY LAW.
+                </p>
+
+                <p><span class="bold">Winner Notification and Acceptance: </span>
+                    The potential winners will be notified on or about
+                    January 2nd 2021, via email. Winner may waive the right to receive the prize. The prize is
+                    nonassignable
+                    and non-transferable. Cash will not be awarded in lieu of the prize, but Sponsor
+                    reserves the right to substitute a prize of equal or greater value due to unavailability. The winner
+                    is solely responsible for reporting and payment of any federal, state and local taxes and for
+                    compliance with all laws associated with the use of the prize. The winner may be asked to
+                    execute and return to Sponsor an affidavit of eligibility and a liability release (except where
+                    prohibited by law) within fourteen (14) days of attempted notification. Non-compliance within
+                    that time period or failure to comply with any term or condition of these Official Rules may, at
+                    the sole discretion of Sponsor, result in a winner's disqualification and the selection of an
+                    alternate winner. Return of any prize/prize notification as undeliverable will result in
+                    disqualification and an alternate winner will be selected. All decisions of Sponsor are final and
+                    binding.
+                </p>
+
+                <p><span class="bold">Rules: </span>
+                    By entering the Promotion, entrant agrees to abide by the terms and conditions of these
+                    Official Rules, which are final on all matters pertaining to the Promotion, and warrants that
+                    he/she is eligible to participate in the Promotion. Submission of entry constitutes entrant’s
+                    consent for Sponsor to use entrant’s email address for purposes of marketing and promotion of
+                    Sponsor’s products and services.
+                </p>
             </div>
-            <div>
-                <label for="email-field" class="block-label">Email:</label>
-                <input id="email-field" type="email" name="email" placeholder="Your Email" required>
-            </div>
-
-            <label for="age" class="block-label">Age:</label>
-            <select id="age" name="age" required>
-                <option value="under-20">Under 20</option>
-                <option value="20s">20-29</option>
-                <option value="30s">30-39</option>
-                <option value="40s">40-49</option>
-                <option value="50s">50-59</option>
-                <option value="60+">60+</option>
-            </select>
-
-        </fieldset>
-        <fieldset class="field_set white-text form-boxes">
-            <legend>Our produce</legend>
-            <div>
-                <label for="fav-fis">What is your favourite fish?</label>
-                <input id="fav-fish" list="fish" name="fav-fis" required>
-                <datalist id="fish">
-                    <option value="Salmon"></option>
-                    <option value="Seabass"></option>
-                    <option value="Cod"></option>
-                    <option value="Haddock"></option>
-                    <option value="Hake"></option>
-                    <option value="Pollock"></option>
-                    <option value="Halibut"></option>
-                    <option value="Monkfish"></option>
-                </datalist>
-            </div>
-            <br>
-            <div>
-            <p>How much fish do you consume per week?</p>
-
-            <input id="once-day-radio" name="fish-amount" value="once-day" type="radio" required>
-            <label for="once-day-radio">Once a day</label>
-
-            <input id="once-week-radio" name="fish-amount" value="once-week" type="radio" required>
-            <label for="once-week-radio">Once a week</label>
-
-            <input id="2/4-week-radio" name="fish-amount" value="2/4-week" type="radio" required>
-            <label for="2/4-week-radio">2-4 times a week</label>
-
-            <input id="never-radio" name="fish-amount" value="never" type="radio" required>
-            <label for="never-radio">Never</label>
-        </div>
-            <br>
-<div>
-            <p>How often do you visit H's Catch?</p>
-
-            <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
-            <label for="once-a-week">Once a week</label>
-
-            <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
-            <label for="once-a-fortnight">Once a fortnight</label>
-
-            <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
-            <label for="once-a-month">Once a month</label>
-
-            <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
-            <label for="not-often">Not often</label>
-        </div>
-            <br>
-<div>
-            <p>Which of our H'catch dishes do you enjoy?</p>
-            <div>
-                <input type="checkbox" id="fillet-checkbox" name="fillet">
-                <label for="fillet-checkbox">Fillet fish dishes</label>
-            </div>
-            <div>
-                <input type="checkbox" id="shellfish-checkbox" name="shellfish">
-                <label for="shellfish-checkbox">Shellfish dishes</label>
-            </div>
-            <div>
-                <input type="checkbox" id="sushi-checkbox" name="sushi">
-                <label for="sushi-checkbox">Sushi dishes</label>
-            </div>
-            <div>
-                <input type="checkbox" id="veggie-checkbox" name="veggie">
-                <label for="veggie-checkbox">Vegetarian dishes</label>
-            </div>
-            <div>
-                <input type="checkbox" id="all-checkbox" name="all">
-                <label for="all-checkbox">All dishes</label>
-            </div>
-<div>
-
-        </fieldset>
-        <div id="terms">
-            <h5 class="underline">OFFICIAL RULES FOR H'S CATCH PRIZE DRAW</h5>
-            <p>NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase does not improve chances
-                of winning. Subject to all federal, state and local laws and regulations. VOID WHERE
-                PROHIBITED OR RESTRICTED</p>
-            <p><span class="bold">Sponsor: </span>H'S Catch</p>
-
-            <p><span class="bold">Eligibility: </span>
-                H's Catch Prize Drawing for 2020 (“Promotion”) is open to all individuals who (i) are 21
-                years of age or older at the
-                time of entry, excluding of Sponsor and its
-                parents, subsidiaries, affiliated companies and agents, and their immediate families or those
-                living in the same household, are not eligible to enter.</p>
-
-            <p><span class="bold">Promotion Period: </span>
-                Entrants may participate in the Promotion between 00:01am GMT on
-                January 1, 2021 through 23:01AM GMT on December 31, 2022 (“Promotion Period”). Sponsor's
-                server is the official clock for this Promotion.
-            </p>
-
-            <p><span class="bold">Release: </span>
-                BY ENTERING THE PROMOTION, ENTRANTS RELEASE AND HOLD HARMLESS
-                SPONSOR AND ITS PARENTS, SUBSIDIARIES, AND AFFILIATED COMPANIES, AND
-                EACH OF THEIR DIRECTORS, OFFICERS, EMPLOYEES, REPRESENTATIVES,
-                VENDORS, PARTNERS AND AGENTS, FROM ANY AND ALL LIABILITY WHATSOEVER,
-                AND WAIVE ANY AND ALL CAUSES OF ACTION, FOR OR RELATED TO ANY CLAIMS,
-                COSTS, INJURIES, LOSSES, LIABILITIES, OR DAMAGES OF ANY KIND (INCLUDING,
-                WITHOUT LIMITATION, PERSONAL INJURY, DEATH, DAMAGE TO OR DESTRUCTION OF
-                PROPERTY, RIGHTS OF PUBLICITY OR PRIVACY, DEFAMATION OR PORTRAYAL IN A
-                FALSE LIGHT) ARISING OUT OF OR IN CONNECTION WITH THE PROMOTION OR THE
-                ACCEPTANCE, POSSESSION, OR USE OF THE PRIZE, WHETHER UNDER A THEORY OF
-                CONTRACT, WARRANTY, TORT (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE,
-                WHETHER ACTIVE, PASSIVE, OR IMPUTED), STRICT LIABILITY, PRODUCT LIABILITY,
-                CONTRIBUTION, OR ANY OTHER THEORY, TO THE EXTENT PERMITTED BY LAW.
-            </p>
-
-            <p><span class="bold">Winner Notification and Acceptance: </span>
-                The potential winners will be notified on or about
-                January 2nd 2021, via email. Winner may waive the right to receive the prize. The prize is nonassignable
-                and non-transferable. Cash will not be awarded in lieu of the prize, but Sponsor
-                reserves the right to substitute a prize of equal or greater value due to unavailability. The winner
-                is solely responsible for reporting and payment of any federal, state and local taxes and for
-                compliance with all laws associated with the use of the prize. The winner may be asked to
-                execute and return to Sponsor an affidavit of eligibility and a liability release (except where
-                prohibited by law) within fourteen (14) days of attempted notification. Non-compliance within
-                that time period or failure to comply with any term or condition of these Official Rules may, at
-                the sole discretion of Sponsor, result in a winner's disqualification and the selection of an
-                alternate winner. Return of any prize/prize notification as undeliverable will result in
-                disqualification and an alternate winner will be selected. All decisions of Sponsor are final and
-                binding.
-            </p>
-
-            <p><span class="bold">Rules: </span>
-                By entering the Promotion, entrant agrees to abide by the terms and conditions of these
-                Official Rules, which are final on all matters pertaining to the Promotion, and warrants that
-                he/she is eligible to participate in the Promotion. Submission of entry constitutes entrant’s
-                consent for Sponsor to use entrant’s email address for purposes of marketing and promotion of
-                Sponsor’s products and services.
-            </p>
-        </div>
+            <!-- Submit and reset buttons for competition form -->
             <div>
                 <input type="submit" class="block-label" value="Enter prize draw">
                 <input type="reset" value="Reset Form">
@@ -193,6 +202,7 @@
         </form>
     </section>
 
+    <!-- Footer section with copyright trademark and links to social media websites  -->
     <footer>
         <h6>Copyright © H's Catch 2022</h6>
         <ul class="social-links">
