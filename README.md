@@ -1,14 +1,18 @@
-# Love Running
+# H's Catch
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-
+H's Catch is a website for a seafood restaurant based in North Wales. The site will be targeted towards people looking to dine out in Caernarfon, Wales area. The website aims to be informative with a sample menu, a section with contact details, openeing times, directions and a map. With many food images within the different pages to show the type of food that will be served at this restaurant.
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+The website features 3 different pages - Home, Gallery and a Competition.
+
+### Home page
+The home page features a short description, a sample menu, a quick book feature and information about the restaurant.
+
+### Gallery page
+
+### Competition page 
 
 ### Existing Features
 
