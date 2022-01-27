@@ -56,11 +56,6 @@ li a:hover {
     background-color: #111;
 }
 
-/* Hides the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
-
 /* main image with animation and cover text */
 
 #risotto {
@@ -370,22 +365,7 @@ input[type=reset] {
 
 /* for smaller screen sizes of 650px wide and below */
 @media screen and (max-width: 650px) {
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
+    
     #left-menu {
         padding-top: 30px;
         width: 90%;
@@ -449,6 +429,14 @@ input[type=reset] {
         top: 35px;
         bottom: 5px;
 
+    }
+
+    #form-background {
+        height: 1000px;
+        width: 100%;
+        background: url(../images/black-marble-background.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
 }
