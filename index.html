@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- Header section with logo and navigation to other pages -->
     <div id="header-background">
         <header>
             <a href="index.html">
@@ -26,17 +27,19 @@
                     <li> <a href="index.html">Home</a></li>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
-                      </a>
+                    </a>
                 </ul>
             </nav>
         </header>
     </div>
+    <!-- Main image with cover text section to home page -->
     <section id="risotto-outer">
         <div id="risotto"></div>
         <div id="cover-text">
             <h3>Cosy seafood restaurant based in North Wales.</h3>
         </div>
     </section>
+    <!-- Menu section to home page -->
     <section id="food-menu">
         <div id="menu-background">
             <h1 id="menu-title">Menu</h1>
@@ -131,94 +134,103 @@
             </div>
         </div>
     </section>
+    <!-- Quick book form section with cover photo to home page -->
     <section>
         <div id="sushi"></div>
 
-<div id="quick-book">
-        <form action="confirmation.html">
-            <fieldset class="field_set">
-                <legend>Quick Book</legend>
-            <div>
-                <label for="fname">First Name:</label>
-                <input required type="text" name="fname" id="fname" placeholder="Your First Name">
-            </div>
-            <div>
-                <label for="lname">Last Name:</label>
-                <input required type="text" name="lname" id="lname" placeholder="Your Last Name">
-            </div>
-            <div>
-                <label for="email">Email Address:</label>
-                <input required type="email" name="email" id="email" placeholder="Your Email">
-            </div>
-            <div>
-                <label for="amount">Amount</label>
-                <select required id="covers" name="covers">
-                    <option value="" selected disabled>Covers</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </select>
-                <label for="time">Time</label>
-                <select required name="time" id="time">
-                    <option value="" selected disabled>Time</option>
-                    <option value="17.30">17.30</option>
-                    <option value="17.45">17.45</option>
-                    <option value="18.00">18.00</option>
-                    <option value="18.15">18.15</option>
-                    <option value="18.30">18.30</option>
-                    <option value="18.45">18.45</option>
-                    <option value="19.00">19.00</option>
-                    <option value="19.15">19.15</option>
-                    <option value="19.30">19.30</option>
-                    <option value="19.45">19.45</option>
-                    <option value="20.00">20.00</option>
-                    <option value="20.15">20.15</option>
-                    <option value="20.30">20.30</option>
-                    <option value="20.45">20.45</option>
-                    <option value="21.00">21.00</option>
-                </select>
-            </div>
-            <input type="submit" value="Check Avaliability">
-        </fieldset>
-        </form>
-    </div>
+        <div id="quick-book">
+            <form action="confirmation.html">
+                <fieldset class="field_set">
+                    <legend>Quick Book</legend>
+                    <div>
+                        <label for="fname">First Name:</label>
+                        <input required type="text" name="fname" id="fname" placeholder="Your First Name">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name:</label>
+                        <input required type="text" name="lname" id="lname" placeholder="Your Last Name">
+                    </div>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input required type="email" name="email" id="email" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <label for="amount">Amount</label>
+                        <select required id="covers" name="covers">
+                            <option value="" selected disabled>Covers</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <label for="time">Time</label>
+                        <select required name="time" id="time">
+                            <option value="" selected disabled>Time</option>
+                            <option value="17.30">17.30</option>
+                            <option value="17.45">17.45</option>
+                            <option value="18.00">18.00</option>
+                            <option value="18.15">18.15</option>
+                            <option value="18.30">18.30</option>
+                            <option value="18.45">18.45</option>
+                            <option value="19.00">19.00</option>
+                            <option value="19.15">19.15</option>
+                            <option value="19.30">19.30</option>
+                            <option value="19.45">19.45</option>
+                            <option value="20.00">20.00</option>
+                            <option value="20.15">20.15</option>
+                            <option value="20.30">20.30</option>
+                            <option value="20.45">20.45</option>
+                            <option value="21.00">21.00</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Check Avaliability">
+                </fieldset>
+            </form>
+        </div>
     </section>
+    <!-- About section with opening times, contact details and directions to home page -->
     <section class="about-background" id="about-section">
         <div id="opening-box" class="about-box ">
             <h2>Opening Times</h2>
-                <p>Mon - 17:30-21:00</p>
-                <p>Tue - 17:30-21:00</p>
-                <p>Wed - 17:30-21:00</p>
-                <p>Thu - 17:30-21:00</p>
-                <p>Fri - 17:30-21:00</p>
-                <p>Sat - 17:30-21:00</p>
-                <p>Sun - Closed</p>
-            </div>
+            <p>Mon - 17:30-21:00</p>
+            <p>Tue - 17:30-21:00</p>
+            <p>Wed - 17:30-21:00</p>
+            <p>Thu - 17:30-21:00</p>
+            <p>Fri - 17:30-21:00</p>
+            <p>Sat - 17:30-21:00</p>
+            <p>Sun - Closed</p>
+        </div>
         <div id="contact-box" class="about-box">
             <h2>Contact Details</h2>
             <p>Email <i class="far fa-envelope"></i> - hscatch@gmail.co.uk </p>
             <p>Phone <i class="fas fa-phone"></i> - 01341250343</p>
-            <p>Address <i class="fas fa-map-marker-alt"></i> - Doc Fictoria, Balaclava Rd, </p><p> Caernarfon, LL55 1TH</p>
+            <p>Address <i class="fas fa-map-marker-alt"></i> - Doc Fictoria, Balaclava Rd, </p>
+            <p> Caernarfon, LL55 1TH</p>
         </div>
-        <div id="directions-box" class="about-box"><h2>Directions</h2>
-        <p>By Car <i class="fas fa-car"></i> - At the roundabout, take the 1st exit and stay on Balaclava Rd, turn right onto Doc Fictoria,
-             destination will be on the left.</p>
-             <p>By Bus <i class="fas fa-bus"></i> - Nearest bus stop is ASDA Caernarfon, then 5 minute walk from bus stop.</p>
-             <p>By Train <i class="fas fa-train"></i> - Nearest train station is Caernarfon Central, then follow bus route steps.</p>
+        <div id="directions-box" class="about-box">
+            <h2>Directions</h2>
+            <p>By Car <i class="fas fa-car"></i> - At the roundabout, take the 1st exit and stay on Balaclava Rd, turn
+                right onto Doc Fictoria,
+                destination will be on the left.</p>
+            <p>By Bus <i class="fas fa-bus"></i> - Nearest bus stop is ASDA Caernarfon, then 5 minute walk from bus
+                stop.</p>
+            <p>By Train <i class="fas fa-train"></i> - Nearest train station is Caernarfon Central, then follow bus
+                route steps.</p>
         </div>
     </section>
+    <!-- Interactive map section to home page -->
     <section>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.1219674940735!2d-4.277523984278011!3d53.14390557993705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4865af5fd807460d%3A0xf021475bba6e6122!2sHarbour%20Table%20Table!5e0!3m2!1sen!2sie!4v1642419850078!5m2!1sen!2sie"
             id="map"></iframe>
     </section>
+    <!-- Footer section with copyright trademark and links to social media websites  -->
     <footer>
         <h6>Copyright © H's Catch 2022</h6>
         <ul class="social-links">
