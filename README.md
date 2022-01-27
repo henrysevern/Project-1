@@ -48,12 +48,19 @@ The Competiton page allows the the user to enter a competition to win a free mea
 
 ![Quick Book](documentation/tests/quick-book.png)
 
+- __About section__
+
+- The About section provides the user with opening times for Monday to Saturday (Sunday closed), contact details for phone, email and post, directions via car, bus or train to the restaurant and an interactive google map.
+- This section is all the further information the user needs to contact, book and find the restaurant.
+- The background for the section is the same as the Menu section to allow for a visiually clean scroll.
+
+![About]()
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for H's Catch. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]()
 
 - __Gallery__
 
