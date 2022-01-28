@@ -1,465 +1,454 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Vujahday+Script&display=swap');
-
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
+	padding: 0;
+	margin: 0;
+	border: none;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 300;
-    color: #333;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	color: #333;
 }
 
 h1,
 h2 {
-    font-family: 'Vujahday Script', sans-serif;
-    letter-spacing: 5px;
+	font-family: 'Vujahday Script', sans-serif;
+	letter-spacing: 5px;
 }
 
 #title {
-    font-size: 300%;
-    background-color: #333;
-    color: #fff;
-    padding-left: 20px;
+	font-size: 300%;
+	background-color: #333;
+	color: #fff;
+	padding-left: 20px;
 }
+
 
 /* styles for navigation bar */
 
 nav>ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    line-height: 2.4;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	line-height: 2.4;
 }
 
 li {
-    float: right;
+	float: right;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+	background-color: #111;
 }
+
 
 /* main image with animation and cover text */
 
 #risotto {
-    height: 500px;
-    width: 100%;
-    background: url('../images/risotto.jpg') no-repeat center center;
-    background-size: cover;
-    animation: risotto-zoom;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
+	height: 500px;
+	width: 100%;
+	background: url('../images/risotto.jpg') no-repeat center center;
+	background-size: cover;
+	animation: risotto-zoom;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
 }
 
 #risotto-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 #cover-text,
 #cover-text h2 {
-    color: #fff;
+	color: #fff;
 }
 
 #cover-text {
-    font-size: 130%;
-    font-family: 'Vujahday Script', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-
-    top: 30px;
-    right: 30px;
-    position: absolute;
+	font-size: 130%;
+	font-family: 'Vujahday Script', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	width: 300px;
+	height: 200px;
+	padding-top: 40px;
+	padding-left: 10px;
+	top: 30px;
+	right: 30px;
+	position: absolute;
 }
 
 @keyframes risotto-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
 }
+
 
 /* styles for sample menu */
 
 span {
-    color: rgb(15, 70, 107);
-    font-family: 'Vujahday Script', sans-serif;
-    font-weight: 700;
-    font-size: larger;
-    text-transform: capitalize;
+	color: rgb(15, 70, 107);
+	font-family: 'Vujahday Script', sans-serif;
+	font-weight: 700;
+	font-size: larger;
+	text-transform: capitalize;
 }
 
 #menu-background {
-
-    height: 1050px;
-    width: 100%;
-    background: url('../images/marble-background-white.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+	height: 1050px;
+	width: 100%;
+	background: url('../images/marble-background-white.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #menu-title {
-    text-align: center;
-    font-size: 300%;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 30px;
-    border-top: 1px solid rgb(15, 70, 107);
-    border-bottom: 1px solid rgb(15, 70, 107);
-    position: relative;
+	text-align: center;
+	font-size: 300%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 30px;
+	border-top: 1px solid rgb(15, 70, 107);
+	border-bottom: 1px solid rgb(15, 70, 107);
+	position: relative;
 }
 
 #left-menu {
-    padding-top: 30px;
-    width: 45%;
-    float: left;
-    margin: 0 1em;
+	padding-top: 30px;
+	width: 45%;
+	float: left;
+	margin: 0 1em;
 }
 
 #right-menu {
-    padding-top: 30px;
-    width: 45%;
-    float: right;
-    margin: 0 1em;
+	padding-top: 30px;
+	width: 45%;
+	float: right;
+	margin: 0 1em;
 }
 
 hr {
-    border-top: 1px dashed rgb(15, 70, 107);
-    width: 80%;
-    margin: 5px 0;
+	border-top: 1px dashed rgb(15, 70, 107);
+	width: 80%;
+	margin: 5px 0;
 }
 
 .float-left>li {
-    float: left;
+	float: left;
 }
 
 
 /* Styles for quick book section */
 
 #sushi {
-    height: 500px;
-    width: 100%;
-    background: url('../images/sushi.jpg') no-repeat center center;
-    background-size: cover;
+	height: 500px;
+	width: 100%;
+	background: url('../images/sushi.jpg') no-repeat center center;
+	background-size: cover;
 }
 
 #quick-book {
-    font-family: 'Dosis', sans-serif;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    color: #fff;
-
-
-    position: absolute;
-    top: 1650px;
-    left: 30px;
-
+	font-family: 'Dosis', sans-serif;
+	width: 300px;
+	height: 200px;
+	padding-top: 40px;
+	padding-left: 10px;
+	color: #fff;
+	position: absolute;
+	top: 1650px;
+	left: 30px;
 }
 
 .field_set {
-    border-color: #fff;
-    border-style: solid;
-    border-width: 1px;
-    padding: 5px;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
 }
+
 
 /* Styles for about section */
 
 .about-background {
-    height: 210px;
-    width: 100%;
-    background: url('../images/marble-background-white.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -2;
+	height: 210px;
+	width: 100%;
+	background: url('../images/marble-background-white.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -2;
 }
 
 #contact-box {
-    position: relative;
-    ;
-    top: 35px;
-    z-index: 1;
-
+	position: relative;
+	;
+	top: 35px;
+	z-index: 1;
 }
 
 #opening-box {
-    position: relative;
-    left: 50px;
-    top: 5px;
-    bottom: 5px;
-    float: left;
-    z-index: 2;
+	position: relative;
+	left: 50px;
+	top: 5px;
+	bottom: 5px;
+	float: left;
+	z-index: 2;
 }
 
 #directions-box {
-    position: relative;
-    right: 50px;
-    top: 5px;
-    bottom: 5px;
-    float: right;
-    z-index: 2;
+	position: relative;
+	right: 50px;
+	top: 5px;
+	bottom: 5px;
+	float: right;
+	z-index: 2;
 }
 
 .about-box {
-    width: 33%;
-    margin: 1rem 0;
-    display: inline-block;
-    text-align: center;
+	width: 33%;
+	margin: 1rem 0;
+	display: inline-block;
+	text-align: center;
 }
-
-
 
 #map {
-    width: 100%;
-    height: 200px;
+	width: 100%;
+	height: 200px;
 }
-
-
 
 
 /* Styles for footer element */
 
 footer>ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
 }
 
 
 /* Styles for gallery page */
 
 #gallery-photos {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-
-
+	clear: both;
+	line-height: 0;
+	column-count: 3;
+	column-gap: 0;
 }
 
 #gallery-photos>img {
-    width: 100%;
+	width: 100%;
 }
+
 
 /* Styles for form page */
 
 input[type=submit] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #fff;
-    color: rgb(15, 70, 107);
-    border: none;
-    border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #fff;
+	color: rgb(15, 70, 107);
+	border: none;
+	border-radius: 5px;
 }
 
 input[type=reset] {
-
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: rgb(15, 70, 107);
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: rgb(15, 70, 107);
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
 }
 
-
 #form-background {
-    height: 900px;
-    width: 100%;
-    background: url('../images/black-marble-background.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+	height: 900px;
+	width: 100%;
+	background: url('../images/black-marble-background.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #form-title {
-    color: #fff;
-    padding: 10px;
-    border-bottom: dotted 1px #fff;
-    font-size: xx-large;
+	color: #fff;
+	padding: 10px;
+	border-bottom: dotted 1px #fff;
+	font-size: xx-large;
 }
 
 .white-text {
-    color: #fff;
+	color: #fff;
 }
 
 .form-boxes {
-    width: 90%;
-    padding: 0.5rem;
-    margin: 1.5rem 0 0 15px;
+	width: 90%;
+	padding: 0.5rem;
+	margin: 1.5rem 0 0 15px;
 }
 
 #terms {
-    height: 200px;
-    width: 90%;
-    padding: 0.5rem;
-    margin: 1.5rem 0 0 15px;
-    border: 1px solid #fff;
-    overflow: scroll;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
+	height: 200px;
+	width: 90%;
+	padding: 0.5rem;
+	margin: 1.5rem 0 0 15px;
+	border: 1px solid #fff;
+	overflow: scroll;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.75);
 }
+
+.bold {
+	color: rgb(12, 132, 212);
+	font-family: 'Vujahday Script', sans-serif;
+	font-weight: 700;
+	font-size: larger;
+	text-transform: capitalize;
+}
+
 
 /* Media quieries */
 
+
 /* for larger to medium screen sizes of 1200px wide and below */
+
 @media screen and (max-width: 1200px) {
-    .about-background {
-        height: 270px;
-        width: 100%;
-        background: url(../images/marble-background-white.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: fixed;
-        z-index: -2;
-    }
-
-    #opening-box {
-        position: relative;
-        left: 10px;
-        top: 5px;
-        bottom: 5px;
-        float: left;
-        z-index: 2;
-    }
-
-    #directions-box {
-        position: relative;
-        right: 10px;
-        top: 5px;
-        bottom: 5px;
-        float: right;
-        z-index: 2;
-    }
+	.about-background {
+		height: 270px;
+		width: 100%;
+		background: url(../images/marble-background-white.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: -2;
+	}
+	#opening-box {
+		position: relative;
+		left: 10px;
+		top: 5px;
+		bottom: 5px;
+		float: left;
+		z-index: 2;
+	}
+	#directions-box {
+		position: relative;
+		right: 10px;
+		top: 5px;
+		bottom: 5px;
+		float: right;
+		z-index: 2;
+	}
 }
+
 
 /* for screen sizes of 735px and below */
+
 @media screen and (max-width: 735px) {
-
-#menu-background {
-    height: 1100px;
-    width: 100%;
-    background: url(../images/marble-background-white.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+	#menu-background {
+		height: 1100px;
+		width: 100%;
+		background: url(../images/marble-background-white.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#quick-book {
+		font-family: 'Dosis', sans-serif;
+		width: 300px;
+		height: 200px;
+		padding-top: 40px;
+		padding-left: 10px;
+		color: #fff;
+		position: absolute;
+		top: 1750px;
+		left: 30px;
+	}
 }
 
-#quick-book {
-    font-family: 'Dosis', sans-serif;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    color: #fff;
-    position: absolute;
-    top: 1750px;
-    left: 30px;
-}
-}
+
 /* for smaller screen sizes of 650px wide and below */
+
 @media screen and (max-width: 650px) {
-    
-    #left-menu {
-        padding-top: 30px;
-        width: 90%;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-    #right-menu {
-        padding-top: 30px;
-        width: 90%;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-    #menu-background {
-        height: 1900px;
-        width: 100%;
-        background: url(../images/marble-background-white.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    #quick-book {
-        font-family: 'Dosis', sans-serif;
-        width: 300px;
-        height: 200px;
-        padding-top: 40px;
-        padding-left: 10px;
-        color: #fff;
-        position: absolute;
-        top: 2600px;
-        left: 30px;
-    }
-
-    .about-background {
-        height: 550px;
-        width: 100%;
-        background: url(../images/marble-background-white.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: fixed;
-
-    }
-
-    #opening-box {
-        top: 5px;
-        width: 90%;
-        bottom: 5px;
-        margin: auto;
-    }
-
-    #contact-box {
-        position: relative;
-        top: 35px;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #directions-box {
-        position: relative;
-        width: 90%;
-        top: 35px;
-        bottom: 5px;
-
-    }
-
-    #form-background {
-        height: 1000px;
-        width: 100%;
-        background: url(../images/black-marble-background.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
+	#left-menu {
+		padding-top: 30px;
+		width: 90%;
+		margin: 0 auto;
+		padding: 10px;
+	}
+	#right-menu {
+		padding-top: 30px;
+		width: 90%;
+		margin: 0 auto;
+		padding: 10px;
+	}
+	#menu-background {
+		height: 1900px;
+		width: 100%;
+		background: url(../images/marble-background-white.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#quick-book {
+		font-family: 'Dosis', sans-serif;
+		width: 300px;
+		height: 200px;
+		padding-top: 40px;
+		padding-left: 10px;
+		color: #fff;
+		position: absolute;
+		top: 2600px;
+		left: 30px;
+	}
+	.about-background {
+		height: 550px;
+		width: 100%;
+		background: url(../images/marble-background-white.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#opening-box {
+		top: 5px;
+		width: 90%;
+		bottom: 5px;
+		margin: auto;
+	}
+	#contact-box {
+		position: relative;
+		top: 35px;
+		width: 90%;
+		margin: 0 auto;
+	}
+	#directions-box {
+		position: relative;
+		width: 90%;
+		top: 35px;
+		bottom: 5px;
+	}
+	#form-background {
+		height: 1000px;
+		width: 100%;
+		background: url(../images/black-marble-background.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
 }
